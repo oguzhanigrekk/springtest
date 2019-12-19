@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "fileapp.configuration-path",
+  "type": "java.lang.String",
+  "description": "A description for 'fileapp.configuration-path'"
+}]}

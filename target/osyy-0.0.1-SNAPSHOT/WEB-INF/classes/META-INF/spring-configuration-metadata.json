@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "fileapp",
+      "type": "com.osyyfile.prog.FileProperties",
+      "sourceType": "com.osyyfile.prog.FileProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fileapp.configuration-path",
+      "type": "java.lang.String",
+      "description": "A description for 'fileapp.configuration-path'"
+    },
+    {
+      "name": "fileapp.path",
+      "type": "java.lang.String",
+      "sourceType": "com.osyyfile.prog.FileProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,6 +1,6 @@
 package com.osyy.model;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class Users {
 
@@ -9,7 +9,7 @@ public class Users {
 	private String surname;
 	private String userName;
 	private String mail;
-	private Date createDate;
+	private LocalDateTime createDate;
 	public Long getId() {
 		return id;
 	}
@@ -40,10 +40,10 @@ public class Users {
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
-	public Date getCreateDate() {
+	public LocalDateTime getCreateDate() {
 		return createDate;
 	}
-	public void setCreateDate(Date createDate) {
+	public void setCreateDate(LocalDateTime createDate) {
 		this.createDate = createDate;
 	}
 	@Override
