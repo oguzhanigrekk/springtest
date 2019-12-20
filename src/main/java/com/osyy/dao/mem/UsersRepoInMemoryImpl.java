@@ -30,7 +30,16 @@ public class UsersRepoInMemoryImpl implements UsersRepository {
 	   user1.setSurname("igrek");
 	   user1.setUserName("oguzhanigrek");
 	   
+	   Users user2 = new Users();
+	   user2.setId(2L);
+	   user2.setCreateDate(localTime);
+	   user2.setMail("o.o@oo.com");
+	   user2.setName("oguzhan");
+	   user2.setSurname("igrek");
+	   user2.setUserName("oguzhanigrek");
+	   
 	   usersMap.put(user1.getId(), user1);
+	   usersMap.put(user2.getId(), user2);
 	}
 	
 	@Override

@@ -9,7 +9,7 @@ public interface UsersService {
 	
 	List<Users> findUsers();
 	List<Users> findByMail(String email);
-	Users findOwner(Long id) throws UserNotFoundException;
+	Users findUsers(Long id) throws UserNotFoundException;
     void createUser(Users users);
     void updateUsers(Users users);
     void deleteUsers(Long id);

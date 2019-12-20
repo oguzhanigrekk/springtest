@@ -34,7 +34,7 @@ public class UsersServiceImpl implements UsersService {
 
 
 	@Override
-	public Users findOwner(Long id) throws UserNotFoundException {
+	public Users findUsers(Long id) throws UserNotFoundException {
 		Users user = userRepository.findById(id);
 		if(user == null) throw new UserNotFoundException("user not found 0"+ id);
 		return user;
